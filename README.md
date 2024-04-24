@@ -14,4 +14,12 @@ Publisher mengakses url yang sama dengan subscriber berarti keduanya berkomunika
 
 ## Sending and processing event
 
+![Console screenshoot](/assets/images/photo2.jpg)
+
 Ketika ```cargo run``` pada publisher dijalankan, publisher mengirimkan data kepada message broker. Subscriber juga terhubung ke message broker yang sama. Message broker lalu memproses data untuk diteruskan ke subscriber yang terhubung pada message broker.
+
+## Monitoring chart based on publisher
+
+![Chart data](/assets/images/photo3.jpg)
+
+Ketika publisher dirun, maka terdapat data yang dikirimkan ke message broker. Message rates dari data dicatat dan ditampilkan sebagai chart pada gambar di atas. Maka ketika publisher dirun, akan terjadi kenaikan (spike) dari chart pada gambar di atas karena chart menggambarkan banyaknya data yang diterima dari publisher.

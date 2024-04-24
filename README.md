@@ -10,4 +10,4 @@ Publisher mengakses url yang sama dengan subscriber berarti keduanya berkomunika
 
 ## Running RabbitMQ
 
-![Running RabbitMQ](/assets/images/rabbitmq1.png)
+![Running RabbitMQ](/assets/images/rabbitmq1.jpg)

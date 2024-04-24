@@ -11,3 +11,7 @@ Publisher mengakses url yang sama dengan subscriber berarti keduanya berkomunika
 ## Running RabbitMQ
 
 ![Running RabbitMQ](/assets/images/rabbitmq1.jpg)
+
+## Sending and processing event
+
+Ketika ```cargo run``` pada publisher dijalankan, publisher mengirimkan data kepada message broker. Subscriber juga terhubung ke message broker yang sama. Message broker lalu memproses data untuk diteruskan ke subscriber yang terhubung pada message broker.
